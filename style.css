@@ -1,0 +1,352 @@
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+    
+}
+
+nav{
+    background-image: url(img/fondoprimer.jpg);
+    height: 80px;
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+
+.logo{
+    height: 60px;
+    width: 50px;
+}
+ nav ul{
+    float: right;
+    margin-right: 20px;
+ }
+
+ nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0;
+}
+
+nav ul li a {
+    color: antiquewhite;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 4px;
+    text-transform: uppercase;
+
+}
+
+li a.activar, li a:hover{
+    background-color: blue;
+    transition: .5s;
+
+}
+
+.botoncheck{
+    font-size: 30px;
+    color: antiquewhite;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+.cuadrado{
+    display: none;
+}
+
+.primerFondo{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.row{
+    padding-top: 50px;
+}
+
+.titulo1{
+    color: azure;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 40%;
+    position: absolute;
+
+}
+.segundoFondo{
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.titulo2{
+    margin-top: 80px;
+    color: azure;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 40%;
+    position: absolute;
+
+}
+
+
+
+.carousel-item {
+    width: 100%;
+    height: 380px;
+    .carru88{
+    width: 100%;
+    height: 100%;
+    .carousel-item{
+    width: 100%;
+    height: 378px;
+    object-fit: cover;
+}
+}    
+}
+.card {
+    text-align: center;
+    margin: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 2px black;
+    
+    
+}
+
+.card-text{
+    background-color: rgb(233, 205, 168);
+}
+
+
+.formularioRegistro {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke ;
+    
+}
+
+
+.stars{
+
+    color: rgb(221, 215, 207);
+    transition: color 0.3s;
+    cursor: pointer;
+
+}
+
+.stars:hover{
+    color: gold;
+    
+}
+
+.card-img-top{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.card-title{
+    font-family: 'Caveat', cursive;}
+
+.letraNav{
+    font-family: 'Caveat', cursive;
+}
+
+
+
+
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+  }
+  
+  .input {
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    width: 100%;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #D9E8D8;
+    color: #0d0c22;
+    box-shadow: 0 0 5px #C1D9BF, 0 0 0 10px #f5f5f5eb;
+    transition: .3s ease;
+  }
+  
+  .input::placeholder {
+    color: #777;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #777;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  
+  
+  .carrito{
+    color: #181724;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-left: 700px;
+  }
+  
+  
+.caritaCompra{
+   text-align: center;
+   color: yellow;
+   padding-left: 10%;
+
+}
+
+
+.ver-carrito{
+    text-align: center;
+   color: yellow;
+   padding-left: 75%;
+}
+
+
+
+.modeloContenedor{
+width: 80%;
+margin: 0 10%;
+max-height: 88vh;
+color: #C1D9BF;
+background-color: #0d0c22;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: fixed;
+overflow: auto;
+z-index: 9;
+top: 12vh;
+scrollbar-color: none;
+
+}
+
+.modeloContenedor::-webkit-scrollbar {
+    display: none;
+}
+
+.model-carro{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0d0c22;
+    color: #C1D9BF;
+    width: 100%;
+   
+
+}
+
+.modelo-botonera{
+    cursor: pointer;
+}
+
+
+.modeloContenedor > div > img {
+    width: 120px;
+    height: 120px;
+    
+}
+
+.modeloContenedor > .modelo-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+
+.total-carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.card-img-top {
+     border-radius: 4px;
+     border: solid 2px black;
+
+}
+
+
+.equis{
+    cursor: pointer;
+}
+
+.sumar{
+    cursor: pointer;
+}
+
+.restar{
+    cursor: pointer;
+}
+
+.numeroCarrito {
+    
+    color: red;
+    font-size: 15px;
+    border-radius: 0.5px;
+    background: black;
+}
+
+.fotoCarro{
+    border-radius: 30px;
+}
+
+
+.total-carrito{
+    font-family: 'Caveat', cursive;
+}
+
+.model-carro-titulo{
+    font-family: 'Caveat', cursive;
+
+}
+
+.modelo-botonera{
+    
+    font-family: 'Caveat', cursive;
+}
+
+body{
+    background-image: url(https://previews.123rf.com/images/ckybe/ckybe1610/ckybe161002166/63744687-80-vintage-retro-o-el-estilo-de-la-moda-a%C3%B1os-90-de-fondo-patr%C3%B3n-abstracto-bueno-para-el-dise%C3%B1o.jpg);
+}

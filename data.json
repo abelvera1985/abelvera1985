@@ -1,0 +1,91 @@
+[
+    {
+        "id":"00",
+        "foto":"https://www.clarin.com/img/2016/08/19/B1QF_RhFEe_720x0.jpg",
+        "toy":"El Tamagotchi",
+        "año":"1992",
+        "precio":1500,
+        "cantidad": 1
+    },
+    {
+        "id":"01",
+        "foto":"https://i.ytimg.com/vi/4rr25CeuoCI/hqdefault.jpg",
+        "toy":"Los Furbys",
+        "año":"1994",
+        "precio":1500,
+        "cantidad": 1
+    },
+    {
+        "id":"02",
+        "foto":"https://www.clarin.com/img/2016/08/19/rJX__R3t4g_720x0.jpg",
+        "toy":"El Supersoaker",
+        "año":"1992",
+        "precio":1500,
+        "cantidad": 1
+    },
+    {
+        "id":"03",
+        "foto":"https://www.clarin.com/img/2016/08/19/SyN_uAnYNe_720x0.jpg",
+        "toy":"Play-Doh",
+        "año":"1992",
+        "precio":1500,
+        "cantidad": 1
+    },
+    {
+        "id":"04",
+        "foto":"https://www.museodeljuguetesi.gob.ar/wp-content/uploads/2022/03/IMG_3906-1024x706.jpg",
+        "toy":"Frutillita",
+        "año":"1992",
+        "precio":1500,
+        "cantidad": 1
+    },
+    {
+        "id":"05",
+        "foto":"https://www.clarin.com/img/2016/08/19/rklFdR3F4e_720x0.jpg",
+        "toy":"Pulgas Locas",
+        "año":"1992",
+        "precio":1500,
+        "cantidad": 1
+    },
+    {
+        "id":"06",
+        "foto":"https://www.clarin.com/img/2016/08/19/SkZYOC2FEl_720x0.jpg",
+        "toy":"El ViewMaster",
+        "año":"1992",
+        "precio":1500,
+        "cantidad": 1
+    },
+    {
+        "id":"07",
+        "foto":"https://i.pinimg.com/originals/96/81/bc/9681bcfe7e2a98e6f8a09a5ece74c1b4.jpg",
+        "toy":"Cartuchera",
+        "año":"1992",
+        "precio":1500,
+        "cantidad": 1
+    },
+    {
+        "id":"08",
+        "foto":"https://www.oxfordlibreria.com.ar/media/catalog/product/cache/5a38f6614905178fa07804facc7b33a0/9/8/9852453565985_20220507170027.jpg",
+        "toy":"La pizarra mágica",
+        "año":"1992",
+        "precio":1500,
+        "cantidad": 1
+    },
+    {
+        "id":"09",
+        "foto":"https://nosomosnonos.com/wp-content/uploads/2019/08/images-4-1.jpeg",
+        "toy":"Tortugas Ninjas",
+        "año":"1992",
+        "precio":1500,
+        "cantidad": 1
+    },
+    {
+        "id":"10",
+        "foto":"https://nosomosnonos.com/wp-content/uploads/2019/08/7083997.jpg",
+        "toy":"Los Ponys",
+        "año":"1992",
+        "precio":1500,
+        "cantidad": 1
+    }
+
+]
