@@ -116,6 +116,7 @@ const verCarro = document.getElementById('verCarrito');
 const modeloDelCarrito = document.getElementById ('modeloContenedor');
 const cantidadCarrito = document.getElementById ('cantidadCarrito');
 
+//parsear carrito a localstorage
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
@@ -126,6 +127,9 @@ const getproducts = async ()=>{
 };
 
 getproducts ();
+
+
+//tarjetas de juguetes con bootstrap
 
 function renderizarProductos(listaProds){
 
@@ -154,6 +158,8 @@ function renderizarProductos(listaProds){
           
 
         });
+
+        //boton de agregar cambio de color
         boton.onmouseover = () => boton.classList.replace('btn-primary','btn-success');
         boton.onmouseout = () => boton.classList.replace('btn-success','btn-primary',);
       
@@ -162,6 +168,8 @@ function renderizarProductos(listaProds){
     }
     
 }
+
+
 
 
 const marcarCarrito =()=>{
@@ -175,6 +183,8 @@ modeloCarro.innerHTML = `
 `;
 modeloDelCarrito.append(modeloCarro);
 
+
+//boton cerrar del carrito 
 const modeloButton = document.createElement("h1");
 
 modeloButton.innerText = "X cerrar";
@@ -192,7 +202,7 @@ modeloButton.addEventListener('click',()=> {
 modeloCarro.append (modeloButton);
 
 
-
+//chango dentro del carro //
 carrito.forEach((toys)=>{
 
 let contendorCarrito = document.createElement('div');
@@ -210,7 +220,7 @@ contendorCarrito.innerHTML = `
 
 modeloDelCarrito.append (contendorCarrito);
 
-
+//restar icono del carrito
 
 let restar = contendorCarrito.querySelector (".restar")
 restar.addEventListener('click',()=>{
@@ -225,6 +235,8 @@ marcarCarrito ();
 
 });
 
+//sumar icono del carrito
+
 let sumar = contendorCarrito.querySelector (".sumar")
 sumar.addEventListener('click',()=>{
 toys.cantidad ++;
@@ -234,7 +246,7 @@ marcarCarrito ();
 
 });
 
-
+//boton eliminar
 let botonEliminar = contendorCarrito.querySelector (".equis");
 
 botonEliminar.addEventListener('click',()=>{
@@ -246,6 +258,8 @@ botonEliminar.addEventListener('click',()=>{
 
 
 });
+
+//total compra 
 
 const totalCompra = carrito.reduce((acumulador, el)=> acumulador + el.precio * el.cantidad, 0);
  const compraDelTotal = document.createElement ('div');
@@ -267,7 +281,7 @@ const totalCompra = carrito.reduce((acumulador, el)=> acumulador + el.precio * e
 
 
 
-
+//agregar productos
             
     renderizarProductos(juguetes);
      
@@ -304,7 +318,7 @@ guardarLocal();
 
 verCarrito.addEventListener("click", marcarCarrito);
 
-
+//eliminar productos del carrito
  
 const eliminarJuguete =(id)=>{
     const buscaId = carrito.find((element)=>element.id === id);
@@ -312,7 +326,7 @@ const eliminarJuguete =(id)=>{
     carrito = carrito.filter((carritoId) => {
      return carritoId !== buscaId;
     });
-
+    
 
     verChango ();
     guardarLocal();
@@ -322,6 +336,9 @@ const eliminarJuguete =(id)=>{
  
  };
  
+
+//localstorage , guardado del carrito
+
 
 const verChango = () =>{
     cantidadCarrito.style.display= "block";

@@ -164,7 +164,12 @@ li a.activar, li a:hover{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: all 300ms;
     
+}
+
+.card-img-top:hover {
+    transform: scale(1.15);
 }
 
 .card-title{
@@ -350,3 +355,36 @@ scrollbar-color: none;
 body{
     background-image: url(https://previews.123rf.com/images/ckybe/ckybe1610/ckybe161002166/63744687-80-vintage-retro-o-el-estilo-de-la-moda-a%C3%B1os-90-de-fondo-patr%C3%B3n-abstracto-bueno-para-el-dise%C3%B1o.jpg);
 }
+
+
+/*api de los simpsons*/
+
+
+
+.contentSimp{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: flex-start;
+    background-color: #C1D9BF;
+    margin-bottom: 30px;
+    align-items: center;
+
+.imgSimp{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;}
+
+
+.nombreSimp{
+text-align: center;
+}
+
+
+}
+
+
+
+
+
+
